@@ -2,7 +2,7 @@ export const API_BASE_URL = 'http://localhost:8080';
  
 export const ROLES = {
   ADMIN:    'ADMIN',
-  SUPPLIER: 'SUPPLIER',
+  SUPPLIER: 'STAFF',
   CUSTOMER: 'CUSTOMER',
 };
  

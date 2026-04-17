@@ -76,9 +76,9 @@ export default function ProductForm({ initial = null, onSubmit, onCancel, loadin
         </div>
 
         <div className="form-group">
-          <label>Supplier ID *</label>
+          <label>Staff ID *</label>
           <select value={form.supplierId ?? ''} onChange={setField('supplierId')}>
-            <option value="">Select Supplier ID</option>
+            <option value="">Select Staff ID</option>
             {ID_OPTIONS.map((id) => <option key={id} value={id}>{id}</option>)}
           </select>
           {errors.supplierId && <div className="error-msg">{errors.supplierId}</div>}

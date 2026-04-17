@@ -72,7 +72,7 @@ export default function RegisterPage() {
             <div className="login-stat-label">User mgmt</div>
           </div>
           <div>
-            <div className="login-stat-value">Supplier</div>
+            <div className="login-stat-value">Staff</div>
             <div className="login-stat-label">Add products</div>
           </div>
           <div>

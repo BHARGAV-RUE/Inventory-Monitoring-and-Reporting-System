@@ -264,8 +264,8 @@ Core inventory entity with stock tracking and metadata.
 ### categories
 Product classification (auto-seeded on first launch).
 
-### supplier
-Supplier contact information.
+### Staff
+Staff contact information.
 
 ### transactions
 Logs stock movement history.

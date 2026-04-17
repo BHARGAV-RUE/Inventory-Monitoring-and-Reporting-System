@@ -5,7 +5,7 @@ const NAV = [
   { to: '/dashboard',   icon: '⊞',  label: 'Dashboard',   role: null },
   { to: '/products',    icon: '📦', label: 'Products',    role: null },
   { to: '/reports',     icon: '📊', label: 'Reports',     role: null },
-  { to: '/add-product', icon: '＋', label: 'Add Product', role: 'SUPPLIER' },
+  { to: '/add-product', icon: '＋', label: 'Add Product', role: 'STAFF' },
   // { to: '/add-user',    icon: '👤', label: 'Add User',    role: 'ADMIN' },
 ];
 

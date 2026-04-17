@@ -144,7 +144,7 @@ export default function Navbar({ title = 'Dashboard', lowStockCount = 0 }) {
           </div>
           <div>
             <div style={{ fontSize: '0.82rem', fontWeight: 600, lineHeight: 1.2 }}>{user?.username}</div>
-            <div style={{ fontSize: '0.68rem', color: 'var(--text2)', lineHeight: 1 }}>{user?.role === "CUSTOMER" ? "STAFF" : user?.role}</div>
+            <div style={{ fontSize: '0.68rem', color: 'var(--text2)', lineHeight: 1 }}>{user?.role === "CUSTOMER" ? "Staff" : user?.role}</div>
           </div>
         </div>
 
